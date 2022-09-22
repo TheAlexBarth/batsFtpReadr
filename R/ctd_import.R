@@ -50,7 +50,7 @@ read_bats_ctd <- function(code, proj) {
   }
 
   # Read in the dataframe
-  col_names <- c("filename",'Date')
+  col_names <- c("cast_id",'Date', )
 
   temp_read <- read.table(path, sep = '\t')
 }
